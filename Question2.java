@@ -15,9 +15,10 @@ public class Question2
     double height = in.nextDouble();
     System.out.println("Your height is " + height);
 
-    Scanner in2 = new Scanner(System.in);
     System.out.println("Enter weight: ");
-    double weight = in2.nextDouble();
+    double weight = in.nextDouble();
     System.out.println("Your weight is " + weight);
+    
+    in.close();
   }
 }
