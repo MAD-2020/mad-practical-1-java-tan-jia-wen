@@ -18,6 +18,14 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
-    
+    System.out.print("Integer for triangle base: "); /*prompts user to give a number for base*/
+    int base = in.nextInt(); /*reads user input*/
+    for (int i = 0; i < base; i++) /*first loop for sentence number */
+    {
+      for (int j = base; j > i; j--) /*second loop for star position */
+      {
+        System.out.print("*"); /*prints out corresponding number of stars */
+      }
+      System.out.print("\n"); /*prints next row on a new line*/
   }
 }
